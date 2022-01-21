@@ -1,10 +1,10 @@
-import ReactCustomHooks from 'components/CustomHooks';
+import ReactMemoHook from 'components/UseMemo';
 import './App.css';
 
 function App() {
   return (
     <div className="container">
-      <ReactCustomHooks />
+      <ReactMemoHook />
     </div>
   );
 }
